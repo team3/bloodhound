@@ -1,0 +1,303 @@
+.body-content {
+    margin: 20px auto;
+    width: 80%;
+    font-family: 'Lucida Grande', 'DejaVu Sans', 'Bitstream Vera Sans', Verdana, Arial, sans-serif;
+    line-height: 1.6em;
+    color: #333;
+    height: 85%;
+}
+
+.page-header {
+    width: 100%;
+    height: 50px;
+}
+
+.page-footer {
+    width: 100%;
+    display: block;
+    float: inherit;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.with-border {
+    border: 1px solid red;
+}
+
+.common-form {
+
+}
+
+.common-form input {
+    border: 1px solid #e2f3ff;
+}
+
+.btn {
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 2px;
+    font-family: Lucida Grande, serif;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 3px 7px 3px 7px;
+    text-decoration: none;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.btn-submit {
+    background: #1E90FF;
+}
+
+.btn-reset {
+    background: #C71585;
+}
+
+/*.btn-submit:hover {
+    background: #DC143C;
+    background-image: -webkit-linear-gradient(top, #DC143C, #DC143C);
+    background-image: -moz-linear-gradient(top, #DC143C, #DC143C);
+    background-image: -ms-linear-gradient(top, #DC143C, #DC143C);
+    background-image: -o-linear-gradient(top, #DC143C, #DC143C);
+    background-image: linear-gradient(to bottom, #DC143C, #DC143C);
+    text-decoration: none;
+}
+
+.btn-reset:hover {
+    background: #1E90FF;
+    background-image: -webkit-linear-gradient(top, #1E90FF, #1E90FF);
+    background-image: -moz-linear-gradient(top, #1E90FF, #1E90FF);
+    background-image: -ms-linear-gradient(top, #1E90FF, #1E90FF);
+    background-image: -o-linear-gradient(top, #1E90FF, #1E90FF);
+    background-image: linear-gradient(to bottom, #1E90FF, #1E90FF);
+    text-decoration: none;
+}*/
+
+.bordered-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 11px;
+}
+
+.bordered-table td {
+    border-bottom: 1px solid #f7f2fb;
+    text-align: left;
+}
+
+.bordered-table th {
+    border-bottom: 1px solid #f7f2fb;
+    text-align: left;
+}
+
+.bordered-table th, .bordered-table td { padding: 0.5em; }
+
+.bordered-table tr:hover th[scope=row], .bordered-table tr:hover td
+{
+    background-color: #f3fcf9;
+    color: dodgerblue;
+}
+
+.control-buttons-bar {
+    width: 100%;
+    align-content: right;
+}
+
+.control-button {
+    width: 50px;
+    color: #FFFFFF;
+    background-color: dodgerblue;
+    float: left;
+    cursor: pointer;
+    margin-right: 3px;
+    border: 1px solid cornflowerblue;
+    font-size: 10px;
+    height: 20px;
+}
+
+.geo-map {
+    width: 100%;
+    height: 300px;
+    border: 1px solid dodgerblue;
+    font-size: 10px;
+}
+
+.candidate-content {
+    width: 100%;
+    padding: 0.5em;
+    line-height: 1em;
+}
+
+.candidate-block:hover {
+    background-color: #f3fcf9;
+    color: dodgerblue;
+}
+
+.candidate-block {
+    height: 100px;
+    margin-top: 2px;
+    border-bottom: 1px solid #f7f2fb;
+    text-align: left;
+}
+
+.candidate-block-photo {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.candidate-block-details {
+    margin-left: 110px;
+    height: 50px;
+    float: inherit;
+}
+
+.candidate-block-details-name {
+    width: auto;
+    float: left;
+    display: block;
+    font-size: smaller;
+    color: #C71585;
+    font-variant: normal;
+}
+
+.candidate-block-details-position {
+    width: 200px;
+    color: #6f6f6f;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: x-small;
+}
+
+.candidate-block-details-country {
+    width: 70px;
+    display: block;
+    color: darkgray;
+    font-size: smaller;
+    float: right;
+}
+
+.candidate-block-details-skills {
+    float: inherit;
+    height: 50px;
+    font-size: smaller;
+    color: dodgerblue;
+}
+
+.candidate-block-details-social-buttons {
+    width: 100%;
+    height: 20px;
+}
+
+.candidate-profile {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #f7f2fb;
+}
+
+.candidate-profile-photo {
+    width: 100px;
+    height: 100px;
+    float: left;
+
+    /*-moz-box-shadow:  0px 0px 10px 0px rgb(128,128,128);
+    -webkit-box-shadow:  0px 0px 10px 0px rgb(128,128,128);
+    box-shadow:  0px 0px 10px 0px rgb(128,128,128);*/
+}
+
+.candidate-profile-links {
+    width: 20px;
+    float: right;
+    height: 100%;
+}
+
+.candidate-profile-basic-info {
+    margin-left: 10px;
+    margin-right: 20px;
+    float: left;
+    width: 500px;
+}
+
+.vacancy-content-name {
+    font-size: 18px;
+    color: #1E90FF;
+}
+
+.vacancy-content-location {
+    font-size: smaller;
+    color: #C71585;
+}
+
+.vacancy-content-skills {
+    font-size: smaller;
+    color: #6f6f6f;
+}
+
+.vacancy-content-responsibilities {
+    font-size: smaller;
+    color: #6f6f6f;
+}
+
+.connection-block {
+    border: 1px solid #e2f3ff;
+    width: 320px;
+    height: 240px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+}
+
+.linkedin-connection-block {
+    background: url('../images/linkedin.png') center center no-repeat;
+}
+
+.facebook-connection-block {
+    background: url('../images/facebook.png') bottom center no-repeat;
+}
+
+.stackoverflow-connection-block {
+    background: url('../images/stackoverflow.png') bottom center no-repeat;
+}
+
+.github-connection-block {
+    background: url('../images/github.png') bottom center no-repeat;
+}
+
+.small-button {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right: 5px;
+}
+
+.large-button {
+
+}
+
+.link-button {
+    width: 50px;
+    -webkit-border-radius: 1;
+    -moz-border-radius: 1;
+    border-radius: 1px;
+    font-family: Lucida Grande, serif;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 1px 1px 1px 1px;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+.github-button {
+    cursor: pointer;
+    background: url("../images/icon-github.png") bottom center no-repeat;
+}
+
+.stackoverflow-button {
+    cursor: pointer;
+    background: url("../images/icon-stackoverflow.png") bottom center no-repeat;
+}
